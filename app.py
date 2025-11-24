@@ -25,5 +25,6 @@ def dbs_prediction():
     return (render_template("dbs_prediction.html",r=r[0][0]))
 
 
+
 if __name__ == "__main__":
     app.run()
